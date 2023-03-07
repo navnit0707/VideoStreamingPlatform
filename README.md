@@ -1,3 +1,20 @@
+# Flow of development of This course
+    This project is bootstrapped starting from the scractch 
+
+    ## Create React App
+    ## Tailwind Setup
+       npm i tailwindcss
+       npx tailwind init to create a tailwind config file 
+       setting path of the file where tailwind css will applies  content: ["./src/**/*.{html,js}"],
+
+       setting tailwind directives to the main css file i.e 
+        @tailwind base;
+        @tailwind components;
+        @tailwind utilities;
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
