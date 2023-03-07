@@ -42,7 +42,7 @@ function ButtonList() {
       </div>
 
       <div className="col-flow-10 overflow-hidden rounded-full">
-        <div className="flex  bg-gray-900">
+        <div className="flex  ">
           {list.map((value, index) => {
             return <Button key={index} name={value} />;
           })}

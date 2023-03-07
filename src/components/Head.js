@@ -9,7 +9,7 @@ const Head = () => {
   };
   return (
     <div className="grid grid-flow-col p-5 m-2 shadow-lg">
-      <div className="flex col-span-1">
+      <div className="flex col-span-2 ">
         <img
           onClick={() => toggleMenuHandler()}
           className="h-8 cursor-pointer"
@@ -18,13 +18,13 @@ const Head = () => {
         />
         <a href="/">
           <img
-            className="h-8 mx-2"
+            className="h-10   mx-5"
             alt="youtube-logo"
             src="https://logos-world.net/wp-content/uploads/2020/04/YouTube-Logo.png"
           />
         </a>
       </div>
-      <div className="col-span-10 px-10 text-center">
+      <div className="col-span-9 px-10 text-center">
         <input
           className="w-1/2 border border-gray-400 p-2 rounded-l-full"
           type="text"
