@@ -23,8 +23,19 @@
         2. create a slice to manage app data
         3. created  reducer and actions
         3. configure the store and slice .
-        5. provide store to teh app by Provider store={store}
+        5. provide store to the app by Provider store={store}
+    setup of  Header
+        1. setup of menu button
+        2. setup of search button
+        3 . setup of menu button
 
+    uses of store
+        1. to toogle the sidebar
+
+    youtube video container
+        1. setup of env file to secure api key
+        2 . using of env variable to get key
+        3. fetching of data in the container
 
 # Getting Started with Create React App
 
