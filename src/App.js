@@ -1,13 +1,14 @@
-
-import './App.css';
+import "./App.css";
+import Body from "./components/Body";
+import Head from "./components/Head";
 
 function App() {
   return (
-  <div className="text-9xl">
-    Hello World !
-    <p className="bg-red-900">hi</p>
-  </div>
+    <div>
+      <Head />
+      <Body />
+    </div>
   );
-} 
+}
 
 export default App;
