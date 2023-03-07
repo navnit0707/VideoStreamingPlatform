@@ -1,14 +1,14 @@
-import React from 'react'
-import MainContainer from "./MainContainer"
-import Sidebar from "./Sidebar"
+import React from "react";
+import MainContainer from "./MainContainer";
+import Sidebar from "./Sidebar";
 
 function Body() {
   return (
-    <div>
-        <Sidebar />
-        <MainContainer />
+    <div className="flex">
+      <Sidebar />
+      <MainContainer />
     </div>
-  )
+  );
 }
 
-export default Body
+export default Body;
