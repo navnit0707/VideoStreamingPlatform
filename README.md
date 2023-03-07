@@ -1,18 +1,29 @@
 # Flow of development of This course
-    This project is bootstrapped starting from the scractch 
+
+    This project is bootstrapped starting from the scractch
 
     ## Create React App
     ## Tailwind Setup
        npm i tailwindcss
-       npx tailwind init to create a tailwind config file 
+       npx tailwind init to create a tailwind config file
        setting path of the file where tailwind css will applies  content: ["./src/**/*.{html,js}"],
 
-       setting tailwind directives to the main css file i.e 
+       setting tailwind directives to the main css file i.e
         @tailwind base;
         @tailwind components;
         @tailwind utilities;
 
+## redux store to manage state
 
+    redux toolkit setup:- npm i @reduxjs/tookit
+    react-redux setup :- npm i react-redux
+
+    setup of store
+        1. create a store in utils folder  (store.js)
+        2. create a slice to manage app data
+        3. created  reducer and actions
+        3. configure the store and slice .
+        5. provide store to teh app by Provider store={store}
 
 
 # Getting Started with Create React App
