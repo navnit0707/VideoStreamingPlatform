@@ -1,3 +1,14 @@
+# Snapshot 
+ ## Front ui 
+ ![Screenshot_20230314_054215](https://user-images.githubusercontent.com/40719341/224859510-80cbc82c-0906-41e3-a575-8eaef1d35659.png)
+
+ ## search bar suggestion 
+ 
+![Screenshot_20230314_054423](https://user-images.githubusercontent.com/40719341/224859788-1a5f6203-87b8-4b7d-aec0-1c43d5aadc08.png)
+
+ ## infinite level comment
+ ![Screenshot_20230314_053751](https://user-images.githubusercontent.com/40719341/224859535-b49e0f1e-3a56-4e61-bffe-f33c56975c2c.png)
+
 # Flow of development of This course
 
     This project is bootstrapped starting from the scractch
