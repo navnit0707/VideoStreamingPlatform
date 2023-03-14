@@ -22,5 +22,12 @@ export const ModifiedCard = ({ info }) => {
     </div>
   );
 };
+export const sideModifiedCard = ({ info }) => {
+  return (
+    <div className="m-2 border border-black opacity-100  transition duration-300 ease-in-out hover:opacity-100  hover:bg-red-400">
+      <VideoCard info={info} />
+    </div>
+  );
+};
 
 export default VideoCard;

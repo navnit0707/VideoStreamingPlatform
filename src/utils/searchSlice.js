@@ -6,6 +6,7 @@ const searchSlice = createSlice({
   reducers: {
     cacheResults: (state, action) => {
       // since theres already empty object we can add properties to it by mutating it we can push there
+
       state = Object.assign(state, action.payload);
     },
   },
